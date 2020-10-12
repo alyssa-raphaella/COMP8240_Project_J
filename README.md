@@ -11,3 +11,7 @@ Group J Project Repository
 * before running the source code, make sure to include __.sty__ files in the main directory of your project in Overleaf, for the Nord theme to work.
 * for the package __fontspec__ to work, change compiler to "XeLaTeX" or "LuaTeX".
   * Click on the Overleaf menu icon above the file list panel, and change the "Compiler" setting to "XeLaTeX" or "LuaLaTeX".
+  
+ ### multimodel-speech-emotion-master
+ Contains the original research codes.
+ source: https://github.com/david-yoon/multimodal-speech-emotion.git

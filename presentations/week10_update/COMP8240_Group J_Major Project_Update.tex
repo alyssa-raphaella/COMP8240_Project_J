@@ -1,0 +1,163 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usepackage{utopia} %font utopia imported
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+%------------------------------------------------------------
+%This block of code defines the information to appear in the
+%Title page
+\title %optional
+{Multimodal Speech Emotion Recognition Using Audio and Text}
+
+\subtitle{}
+
+
+\author[Group J] % (optional)
+{Group J: Jan Arvin Lapuz, Alyssa Lim, Le Van Nguyen, Ramil Zabala}
+
+
+% \date[VLC 2014] (optional)
+% {COMP8240 Applications of Data Science, 13 Oct 2020}
+
+%End of title page configuration block
+%------------------------------------------------------------
+%The next block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Presentation Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+%------------------------------------------------------------
+
+\begin{document}
+
+\frame{\titlepage}
+
+%---------------------------------------------------------
+%This block of code is for the table of contents after
+%the title page
+\begin{frame}
+\frametitle{Presentation Outline}
+\tableofcontents
+\end{frame}
+%---------------------------------------------------------
+
+\section{Project Overview Revisited}
+
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Project Overview Revisited}
+\begin{itemize}
+    \item 2018 IEEE Spoken Language Technology Workshop (SLT)
+    \item Rank 14 in Computational Linguistics Category on Google Scholar
+    \item Speech Emotion Recognition
+    \item Dual Recurrent Neural Networks (RNNs)
+    \begin{itemize}
+        \item Speech Data
+            \begin{itemize}
+                \item Mel Frequency Crystal Coefficients (MFCC)
+                \item Prosodic Features
+            \end{itemize}
+        \item Text Data
+            \begin{itemize}
+                \item Word Tokens
+            \end{itemize}
+    \end{itemize}
+    \item Emotion Categories: Angry, Happy, Sad Neutral
+\end{itemize}
+\end{frame}
+
+%---------------------------------------------------------
+
+\section{Setting Up the Environment}
+
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Setting Up the Environment}
+\textbf{Environment}: Google Colab
+
+\textbf{Requirements}:
+\begin{itemize}
+    \item tensorflow==1.4 (tested on cuda-8.0, cudnn-6.0)
+    \item python==2.7
+    \item scikit-learn==0.20.0
+    \item nltk==3.3
+\end{itemize}
+
+\textbf{Limitation on VM}:
+\begin{itemize}
+    \item Data size limitation
+    \item Crash
+\end{itemize}
+
+\end{frame}
+
+%---------------------------------------------------------
+
+\section{Replication Results on Original Dataset}
+
+%---------------------------------------------------------
+\begin{frame}
+\frametitle{Replication Results on Original Dataset}
+
+    \begin{itemize}
+        \item Pre-trained model not available but codes and model parameters are available on GitHub: \href{https://github.com/david-yoon/multimodal-speech-emotion}{https://github.com/david-yoon/multimodal-speech-emotion}
+        
+        \item Replication Results: \\
+            \begin{center}
+                \begin{tabular}{||c c c||} 
+                 \hline
+                 Model & Replication Accuracy & Research Accuracy \\ [0.5ex] 
+                 \hline\hline
+                 Text Only & 62.8\% & 63.5\%\\ 
+                 \hline
+                 Audio Only & 55.7\% & 54.6\%\\
+                 \hline
+                 Multimodal & 71.0\% & 71.8\%\\
+                 \hline
+                 Multimodal-Attention & 48.5\% & 69.0\%\\
+                 \hline
+                \end{tabular}
+            \end{center}
+    \end{itemize}
+
+\end{frame}
+
+%---------------------------------------------------------
+
+\section{Update on the New Dataset}
+
+
+%---------------------------------------------------------
+
+
+\begin{frame}[fragile]
+  \frametitle{Update on the New Dataset}
+    
+    \textbf{Approach 1}: Data from another Research
+    \begin{itemize}
+        \item RAVDESS Dataset with 8 different emotions (neutral, calm, happy, sad, angry, fearful, disgust, surprised)
+        \item TESS Dataset with 7 different emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral)
+    \end{itemize}
+    
+    \textbf{Approach 2}: Create data from Scratch
+    \begin{itemize}
+        \item Download Youtube audio and captions (completed)
+        \begin{itemize}
+            \item (Optional) Setup a Google Cloud Speech API account (completed)
+            \item (Optional) Feed into Google Cloud Speech API to create the text
+        \end{itemize}
+        \item Feed into openSMILE Toolkit to extract the MFCC and Prosodic features (to-do)
+        \item Investigate on feeding the text script into Amazon Turk to label with emotion tags (to-do)
+    \end{itemize}
+
+\end{frame}
+
+\end{document}

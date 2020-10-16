@@ -1,0 +1,7 @@
+##
+## convert mp3 to flac ##
+##
+##sox input/mp3 --rate 16k --bits 16 --channels 1 output.flac
+## ex. 
+
+sox C:\Users\Alyssa Raphaella Lim\Documents\GitHub\COMP8240_Project_J\youtube_data --rate 16k --bits 16 --channels 1 output.flac

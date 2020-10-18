@@ -1,0 +1,12 @@
+1. Create a gcs acct.
+2. follow steps (except: Make an audio transcription request)
+	https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries
+3. install sox
+	https://github.com/JoFrhwld/FAVE/wiki/Sox-on-Windows
+4. convert wav/mp3 to flac 16bit. 
+	* sox_convert.bat converts wav to flac 16bit (for windows), bulk convert files from one folder.
+5. create google cloud storage account and bucket. and upload you flac files into the bucket.
+	https://cloud.google.com/storage/docs/quickstart-console
+6. run GCS_request.py
+	* dont forget to change the file list directory in the script, as well as the bucket location (input for the funnction).
+	* each wav file will have individual transcription file.

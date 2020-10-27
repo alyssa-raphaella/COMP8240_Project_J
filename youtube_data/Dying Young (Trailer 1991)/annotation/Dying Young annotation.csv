@@ -1,25 +1,25 @@
-,questions,annotator 1,annotator 2
-1,Hilary O'Neil had little experience and a lot of possibility.,Neutral,Neutral
-2,do you know anything about chemotherapy.,Neutral,Sad
-3,well I need help during it.,Sad,Sad
-4,"so why would you pick me? Oh.. I got it. I had this shortest skirt, huh?",Happy,Sad
-5,oh actually no there was one with a shorter skirt but he was never a candy striper.,Happy,Neutral
-6,Victor at all life could offer except the one thing he needed.,Neutral,Neutral
-7,I don't think I can deal with this.,Sad,Sad
-8,"I'm not going to die, I am going to recover but I can't do it without help, I can't do it without you.",Sad,Neutral
-9,for them the best medicine in life is knowing that there's hope.,Neutral,Happy
-10,we deserve an adventure.,Happy,Neutral
-11,why don't you drive?,Happy,Neutral
-12,no please don't do that Hilary.,Angry,Angry
-13,he's very sick and I don't know how to help him.,Sad,Sad
-14,Where's my son?,Angry,Angry
-15,I think you need to come get him now.,Sad,Angry
-16,"I'd like to hide away here, too, with a beautiful girl. It's the enchanted cottage.",Happy,Happy
-17,I'm taking you back.,Sad,Sad
-18,Do you love me?,Happy,Angry
-19,What?,Other,Happy
-20,Just tell me.,Neutral,Neutral
-21,"You want me to tell you I love you? Then you can say, ""Well, great. Now I'm gonna die and I'm gonna leave you.""",Sad,Sad
-22,Do you think I want to die ?,Sad,Angry
-23,I need a life. I have a life with you.,Sad,Happy
-24,Most people live a lifetime and never love like this.,Neutral,Happy
+,questions,annotator 1,annotator 2,annotator 3
+1,Hilary O'Neil had little experience and a lot of possibility.,Neutral,Neutral,Neutral
+2,do you know anything about chemotherapy.,Neutral,Sad,Sad
+3,well I need help during it.,Sad,Sad,Sad
+4,"so why would you pick me? Oh.. I got it. I had this shortest skirt, huh?",Happy,Sad,Happy
+5,oh actually no there was one with a shorter skirt but he was never a candy striper.,Happy,Neutral,Happy
+6,Victor at all life could offer except the one thing he needed.,Neutral,Neutral,Sad
+7,I don't think I can deal with this.,Sad,Sad,Sad
+8,"I'm not going to die, I am going to recover but I can't do it without help, I can't do it without you.",Sad,Neutral,Sad
+9,for them the best medicine in life is knowing that there's hope.,Neutral,Happy,Neutral
+10,we deserve an adventure.,Happy,Neutral,Happy
+11,why don't you drive?,Happy,Neutral,Neutral
+12,no please don't do that Hilary.,Angry,Angry,Angry
+13,he's very sick and I don't know how to help him.,Sad,Sad,Sad
+14,Where's my son?,Angry,Angry,Angry
+15,I think you need to come get him now.,Sad,Angry,Neutral
+16,"I'd like to hide away here, too, with a beautiful girl. It's the enchanted cottage.",Happy,Happy,Happy
+17,I'm taking you back.,Sad,Sad,Angry
+18,Do you love me?,Happy,Angry,Happy
+19,What?,Other,Happy,Neutral
+20,Just tell me.,Neutral,Neutral,Neutral
+21,"You want me to tell you I love you? Then you can say, ""Well, great. Now I'm gonna die and I'm gonna leave you.""",Sad,Sad,Sad
+22,Do you think I want to die ?,Sad,Angry,Sad
+23,I need a life. I have a life with you.,Sad,Happy,Happy
+24,Most people live a lifetime and never love like this.,Neutral,Happy,Happy

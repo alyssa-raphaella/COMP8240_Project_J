@@ -21,17 +21,46 @@ DATA_DEV_PROSODY        = 'dev_audio_prosody.npy'
 DATA_DEV_LABEL             = 'dev_label.npy'
 DATA_DEV_TRANS            = 'dev_nlp_trans.npy'
 
-
-DATA_TEST_MFCC            = 'test_audio_mfcc.npy'
-DATA_TEST_MFCC_SEQN  = 'test_seqN.npy'
-DATA_TEST_PROSODY      = 'test_audio_prosody.npy'
+################################
+#     TEST data path
+################################
+## original test data
+#DATA_TEST_MFCC            = 'test_audio_mfcc.npy'
+#DATA_TEST_MFCC_SEQN  = 'test_seqN.npy'
+#DATA_TEST_PROSODY      = 'test_audio_prosody.npy'
 #DATA_TEST_PROSODY     = 'test_audio_emobase2010.npy'   # easy emobase2010 setting
-DATA_TEST_LABEL           = 'test_label.npy'
-DATA_TEST_TRANS          = 'test_nlp_trans.npy'
+#DATA_TEST_LABEL           = 'test_label.npy'
+#DATA_TEST_TRANS          = 'test_nlp_trans.npy'
+
+## original DIC and GLOVE
+#DIC                               = 'dic.pkl'
+#GLOVE 
+
+################################
+
+## YOUTUBE test data
+DATA_TEST_MFCC            = 'YOUTUBE_test_audio_mfcc.npy'
+DATA_TEST_MFCC_SEQN  = 'YOUTUBE_test_seqN.npy'
+DATA_TEST_PROSODY      = 'YOUTUBE_test_audio_prosody.npy'
+DATA_TEST_LABEL           = 'YOUTUBE_test_label.npy'
+DATA_TEST_TRANS          = 'YOUTUBE_test_nlp_trans.npy'
+
+## YOUTUBE DIC and GLOVE
+#DIC                               = 'YOUTUBE_dic_new.pkl'
+#GLOVE                              = 'YOUTUBE_W_embedding_new.npy'
+
+################################
+# TESS test data
+DATA_TEST_MFCC            = 'TESS_test_audio_mfcc.npy'
+DATA_TEST_MFCC_SEQN  = 'TESS_test_seqN.npy'
+DATA_TEST_PROSODY      = 'TESS_test_audio_prosody.npy'
+DATA_TEST_LABEL           = 'TESS_test_label.npy'
+DATA_TEST_TRANS          = 'TESS_test_nlp_trans.npy'
 
 
-DIC                               = 'dic.pkl'
-GLOVE                              = 'W_embedding.npy'
+## TESS DIC and GLOVE
+DIC                               = 'TESS_dic_new.pkl'
+GLOVE                              = 'TESS_W_embedding_new.npy'
 
 
 ################################

@@ -40,7 +40,7 @@ Note:
 ### Other files
 * `qualtrics_surveys.txt` contains the link to our annotation survey for youtube data
 * `Final report` contains final report pdf and its source code
-* TESS_data and youtube_data folders contains the project team's raw new data.
+* New_data folder contains the project team's raw new datasets.
   
 ### Original research codes
 Original research codes can be found here: https://github.com/david-yoon/multimodal-speech-emotion.git

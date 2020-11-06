@@ -15,6 +15,16 @@ Note:
 * for the package __fontspec__ to work, change compiler to "XeLaTeX" or "LuaTeX".
   * Click on the Overleaf menu icon above the file list panel, and change the "Compiler" setting to "XeLaTeX" or "LuaLaTeX".
 
+
+### Final report
+The `Final Report` folder contains:
+- Final report pdf file
+- latex project which is used to compile final report
+- `fleiss_comp.ipynb` notebook is used to calculate fleiss kappa score that is reported in the final report
+- `replication_viz.xlsx` is used to create visuals used in the final report
+- `test run results` folder contains test run results that are reported in the final report
+
+
 ### Dataset
 - Please ensure that you acquire the IEMOCAP license agreement at <a href="https://sail.usc.edu/iemocap/">[IEMOCAP website]</a> before downloading the dataset. 
 
@@ -22,6 +32,7 @@ Note:
 <a href="https://drive.google.com/drive/folders/1upmf9bmQizgZCA2I8l4UC73ebdvS6AP6?usp=sharing">[link]</a>
 
 - After downloading the dataset, place the `IEMOCAP` folder in `multimodal-speech-emotion-master/data/processed` directory.
+
 
 ### To run the models
 - Adjust the `multimodal-speech-emotion-master/model/project_config.py` file to appropriate test dataset, there are 3 test dataset to choose:

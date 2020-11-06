@@ -15,12 +15,24 @@ Note:
 * for the package __fontspec__ to work, change compiler to "XeLaTeX" or "LuaTeX".
   * Click on the Overleaf menu icon above the file list panel, and change the "Compiler" setting to "XeLaTeX" or "LuaLaTeX".
 
+### Dataset
+- Please ensure that you acquire the IEMOCAP license agreement at <a href="https://sail.usc.edu/iemocap/">[IEMOCAP website]</a> before downloading the dataset. 
+
+- The dataset including the project team's processed new data can be found here.
+<a href="https://drive.google.com/drive/folders/1upmf9bmQizgZCA2I8l4UC73ebdvS6AP6?usp=sharing">[link]</a>
+
+- After downloading the dataset, place the 'IEMOCAP' folder in `multimodal-speech-emotion-master/data/processed` directory.
 
 ### To run the models
-
+Open
 
 ### To run the preprocessing functions
 
+
+### Other files
+* `qualtrics_surveys.txt` contains the link to our annotation survey for youtube data
+* `Final report` contains final report pdf and its source code
+* TESS_data and youtube_data folders contains the project team's raw new data.
   
 ### Original research codes
 Original research codes can be found here: https://github.com/david-yoon/multimodal-speech-emotion.git

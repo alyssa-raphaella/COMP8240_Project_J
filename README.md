@@ -21,13 +21,21 @@ Note:
 - The dataset including the project team's processed new data can be found here.
 <a href="https://drive.google.com/drive/folders/1upmf9bmQizgZCA2I8l4UC73ebdvS6AP6?usp=sharing">[link]</a>
 
-- After downloading the dataset, place the 'IEMOCAP' folder in `multimodal-speech-emotion-master/data/processed` directory.
+- After downloading the dataset, place the `IEMOCAP` folder in `multimodal-speech-emotion-master/data/processed` directory.
 
 ### To run the models
-Open
+- Adjust the `multimodal-speech-emotion-master/model/project_config.py` file to appropriate test dataset, there are 3 test dataset to choose:
+  - Original test data
+  - YOUTUBE test data
+  - TESS test data
+- Run `reference_script.ipynb` notebook in `multimodal-speech-emotion-master/model_new` directory.
+- Remember to adjust to correct project directory in the notebook
 
 ### To run the preprocessing functions
-
+- The preprocessing notebooks are in `multimodal-speech-emotion-master/preprocessing_new` directory
+  - For preprocessing text data, run `00_Text Processing - Python 3.ipynb` and then `01_Text Processing - Python 2.ipynb`
+  - For preprocessing audio data, run `OS_IEMOCAP_01_wav_to_feature.ipynb` and then `OS_IEMOCAP_02_to_four_category_.ipynb`
+- Remember to adjust to correct project directory in the notebook
 
 ### Other files
 * `qualtrics_surveys.txt` contains the link to our annotation survey for youtube data

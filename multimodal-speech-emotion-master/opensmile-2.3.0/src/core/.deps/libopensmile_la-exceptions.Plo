@@ -1,1 +1,0 @@
-src/core/libopensmile_la-exceptions.lo: src/core/exceptions.cpp
